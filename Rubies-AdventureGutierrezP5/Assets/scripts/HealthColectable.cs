@@ -4,15 +4,16 @@ using UnityEngine;
 
 public class HealthColectable : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    void OnTriggerEnter2D(Collider2D other)
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        RubyControler controller = other.GetComponent<RubyControler>();
+        if (controller != null)
+        {
+            if (controller.health < controller.maxHealth)
+            {
+                controller.ChangeHealth(1);
+                Destroy(gameObject);
+            }
+        }
     }
 }
