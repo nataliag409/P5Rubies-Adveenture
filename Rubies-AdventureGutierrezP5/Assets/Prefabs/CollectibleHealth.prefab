@@ -255,6 +255,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e3d2dd17e658af14f972d241e6684c35, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  collectedClip: {fileID: 8300000, guid: af5f8b64e3f58f24c87ff8f789b04f6c, type: 3}
 --- !u!1001 &881993795682631898
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2360,6 +2361,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e3d2dd17e658af14f972d241e6684c35, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  collectedClip: {fileID: 0}
 --- !u!4 &9219124183744879815 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3850963610665095042, guid: abafcb457f9d4bb4a8a28a1975c86371, type: 3}
